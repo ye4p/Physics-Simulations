@@ -1,0 +1,3 @@
+to build - cargo build
+to run - cargo run
+to download library - cargo add lib_name
