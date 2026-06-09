@@ -19,7 +19,7 @@ pub struct WindowConfig {
 impl Default for WindowConfig {
     fn default() -> Self {
         Self {
-            title: "My App",
+            title: "Physics simulation",
             width: 800.0,
             height: 600.0,
             resizable: true,

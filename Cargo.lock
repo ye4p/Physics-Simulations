@@ -1300,8 +1300,10 @@ checksum = "9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220"
 name = "physics_engine"
 version = "0.1.0"
 dependencies = [
+ "bytemuck",
  "cxx",
  "cxx-build",
+ "pollster",
  "wgpu",
  "winit",
 ]
@@ -1357,6 +1359,12 @@ dependencies = [
  "rustix 1.1.4",
  "windows-sys 0.61.2",
 ]
+
+[[package]]
+name = "pollster"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22686f4785f02a4fcc856d3b3bb19bf6c8160d103f7a99cc258bddd0251dc7f2"
 
 [[package]]
 name = "portable-atomic"

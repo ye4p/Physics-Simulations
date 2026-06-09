@@ -2,14 +2,15 @@
 
 mod ffi {
     struct Vector {
-        x: i32,
-        y: i32,
+        x: f32,
+        y: f32,
     }
 
     unsafe extern "C++" {
+        include!("cpp/run.h");
         include!("cpp/physics.h");
-        // fn update(delta: f32);
-        fn run();
+        fn init() -> i32;
+        fn update();
         fn get_positions() -> Vec<Vector>;
     }
 }

@@ -1,5 +1,6 @@
 mod display;
 mod ffi;
+mod logic;
 use display::{WindowConfig, run_window};
 
 fn main() {

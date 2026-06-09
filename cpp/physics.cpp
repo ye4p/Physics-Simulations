@@ -156,14 +156,3 @@ Molecule &Grid::find(Vector<int> pos)
         return arr[sq]->m;
     }
 }
-
-void run()
-{
-}
-
-std::vector<Vector<int>> get_positions()
-{
-    std::vector<Vector<int>> vec;
-    vec.push_back(Vector(10, 10));
-    return vec;
-}
