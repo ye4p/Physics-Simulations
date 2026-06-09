@@ -13,6 +13,7 @@ void start(int num_of_particles)
 
 int main()
 {
-
+    // std::vector<Molecule> vec;
+    // vec.push_back(Molecule(Vector(10, 10), Vector(10, 10), 1, 1));
     return 0;
 }
