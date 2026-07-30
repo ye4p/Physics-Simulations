@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(physics_engine)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(physics_engine
+    src/main.cpp
+    src/physics.cpp
+    src/display.cpp
+)
