@@ -1,0 +1,3 @@
+C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/build/CMakeFiles/physics_engine.dir
+C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/build/CMakeFiles/edit_cache.dir
+C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/build/CMakeFiles/rebuild_cache.dir
