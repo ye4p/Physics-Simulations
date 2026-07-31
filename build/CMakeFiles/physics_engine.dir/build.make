@@ -75,43 +75,43 @@ CMakeFiles/physics_engine.dir/src/main.cpp.obj: CMakeFiles/physics_engine.dir/fl
 CMakeFiles/physics_engine.dir/src/main.cpp.obj: C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/src/main.cpp
 CMakeFiles/physics_engine.dir/src/main.cpp.obj: CMakeFiles/physics_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/physics_engine.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physics_engine.dir/src/main.cpp.obj -MF CMakeFiles\physics_engine.dir\src\main.cpp.obj.d -o CMakeFiles\physics_engine.dir\src\main.cpp.obj -c C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\main.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physics_engine.dir/src/main.cpp.obj -MF CMakeFiles\physics_engine.dir\src\main.cpp.obj.d -o CMakeFiles\physics_engine.dir\src\main.cpp.obj -c C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\main.cpp
 
 CMakeFiles/physics_engine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/physics_engine.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\main.cpp > CMakeFiles\physics_engine.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\main.cpp > CMakeFiles\physics_engine.dir\src\main.cpp.i
 
 CMakeFiles/physics_engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physics_engine.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\main.cpp -o CMakeFiles\physics_engine.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\main.cpp -o CMakeFiles\physics_engine.dir\src\main.cpp.s
 
 CMakeFiles/physics_engine.dir/src/physics.cpp.obj: CMakeFiles/physics_engine.dir/flags.make
 CMakeFiles/physics_engine.dir/src/physics.cpp.obj: C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/src/physics.cpp
 CMakeFiles/physics_engine.dir/src/physics.cpp.obj: CMakeFiles/physics_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/physics_engine.dir/src/physics.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physics_engine.dir/src/physics.cpp.obj -MF CMakeFiles\physics_engine.dir\src\physics.cpp.obj.d -o CMakeFiles\physics_engine.dir\src\physics.cpp.obj -c C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\physics.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physics_engine.dir/src/physics.cpp.obj -MF CMakeFiles\physics_engine.dir\src\physics.cpp.obj.d -o CMakeFiles\physics_engine.dir\src\physics.cpp.obj -c C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\physics.cpp
 
 CMakeFiles/physics_engine.dir/src/physics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/physics_engine.dir/src/physics.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\physics.cpp > CMakeFiles\physics_engine.dir\src\physics.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\physics.cpp > CMakeFiles\physics_engine.dir\src\physics.cpp.i
 
 CMakeFiles/physics_engine.dir/src/physics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physics_engine.dir/src/physics.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\physics.cpp -o CMakeFiles\physics_engine.dir\src\physics.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\physics.cpp -o CMakeFiles\physics_engine.dir\src\physics.cpp.s
 
 CMakeFiles/physics_engine.dir/src/display.cpp.obj: CMakeFiles/physics_engine.dir/flags.make
 CMakeFiles/physics_engine.dir/src/display.cpp.obj: C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/src/display.cpp
 CMakeFiles/physics_engine.dir/src/display.cpp.obj: CMakeFiles/physics_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/physics_engine.dir/src/display.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physics_engine.dir/src/display.cpp.obj -MF CMakeFiles\physics_engine.dir\src\display.cpp.obj.d -o CMakeFiles\physics_engine.dir\src\display.cpp.obj -c C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\display.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physics_engine.dir/src/display.cpp.obj -MF CMakeFiles\physics_engine.dir\src\display.cpp.obj.d -o CMakeFiles\physics_engine.dir\src\display.cpp.obj -c C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\display.cpp
 
 CMakeFiles/physics_engine.dir/src/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/physics_engine.dir/src/display.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\display.cpp > CMakeFiles\physics_engine.dir\src\display.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\display.cpp > CMakeFiles\physics_engine.dir\src\display.cpp.i
 
 CMakeFiles/physics_engine.dir/src/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physics_engine.dir/src/display.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\display.cpp -o CMakeFiles\physics_engine.dir\src\display.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danil\OneDrive\Desktop\Programming\repos\physics_engine\src\display.cpp -o CMakeFiles\physics_engine.dir\src\display.cpp.s
 
 # Object files for target physics_engine
 physics_engine_OBJECTS = \
