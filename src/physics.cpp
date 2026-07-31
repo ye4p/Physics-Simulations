@@ -1,4 +1,4 @@
-#include "physics.h"
+#include "../include/physics.h"
 #include <stdexcept>
 #include <vector>
 Body::Body() : position(Vector<int>()), velocity(Vector<int>()) {};
@@ -77,8 +77,8 @@ Grid::Grid(int particle_radius)
 {
     int x_squares = X_BOUND / (particle_radius * 6);
     int y_squares = Y_BOUND / (particle_radius * 6);
-    arr = std::make_unique<ListNode *[]>(x_squares * y_squares);
     arr_size = x_squares * y_squares;
+    arr = std::make_unique<ListNode *[]>(arr_size);
 }
 
 void Grid::insert(Molecule m)

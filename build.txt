@@ -1,0 +1,1 @@
+cmake --build . inside of /build directory to compile

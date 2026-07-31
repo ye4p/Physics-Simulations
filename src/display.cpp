@@ -1,5 +1,5 @@
 
-#include <display.h>
+#include "../include/display.h"
 
 void InitFramebuffer()
 {
