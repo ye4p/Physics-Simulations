@@ -1,6 +1,7 @@
 #include "../include/physics.h"
 #include <stdexcept>
 #include <vector>
+
 Body::Body() : position(Vector<int>()), velocity(Vector<int>()) {};
 
 Body::Body(Vector<int> p, Vector<int> s, int mass) : position(p), velocity(s), mass(mass) {}
@@ -148,11 +149,7 @@ Molecule &Grid::find(Vector<int> pos)
     int sq = x_sq + y_sq * x_squares;
 
     if (!arr[sq])
-    {
         throw std::runtime_error("Molecule was not found");
-    }
-    else
-    {
-        return arr[sq]->m;
-    }
+
+    return arr[sq]->m;
 }

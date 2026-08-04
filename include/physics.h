@@ -71,14 +71,7 @@ public:
     }
 };
 
-class ListNode
-{
-public:
-    ListNode *next;
-    Molecule m;
-    ListNode() : next(nullptr), m(Molecule()) {};
-    ListNode(Molecule m, ListNode *next = nullptr) : next(next), m(m) {};
-};
+
 
 class Body
 {
@@ -112,6 +105,15 @@ public:
     bool operator!=(const Molecule &other) const;
 };
 
+class ListNode
+{
+public:
+    ListNode *next;
+    Molecule m;
+    ListNode() : next(nullptr), m(Molecule()) {};
+    ListNode(Molecule m, ListNode *next = nullptr) : next(next), m(m) {};
+};
+
 class Grid
 {
 
@@ -129,3 +131,4 @@ public:
     void move(Molecule &m, Vector<int> new_pos);
     Molecule &find(Vector<int> pos); // Finds if there are more molecules in the current grid square
 };
+
