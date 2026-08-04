@@ -126,6 +126,7 @@ physics_engine.exe: CMakeFiles/physics_engine.dir/src/main.cpp.obj
 physics_engine.exe: CMakeFiles/physics_engine.dir/src/physics.cpp.obj
 physics_engine.exe: CMakeFiles/physics_engine.dir/src/display.cpp.obj
 physics_engine.exe: CMakeFiles/physics_engine.dir/build.make
+physics_engine.exe: C:/msys64/ucrt64/lib/libSDL3.dll.a
 physics_engine.exe: CMakeFiles/physics_engine.dir/linkLibs.rsp
 physics_engine.exe: CMakeFiles/physics_engine.dir/objects1.rsp
 physics_engine.exe: CMakeFiles/physics_engine.dir/link.txt
