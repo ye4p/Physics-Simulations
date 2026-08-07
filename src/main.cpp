@@ -3,7 +3,7 @@
 #include "../include/display.h"
 
 
-int main() {
-    std::cout<<"hello world!\n";
-    return 0;
-}
+// int main() {
+//     std::cout<<"hello world!\n";
+//     return 0;
+// }

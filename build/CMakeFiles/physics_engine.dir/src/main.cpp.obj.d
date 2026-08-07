@@ -260,4 +260,6 @@ CMakeFiles/physics_engine.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/SDL3/SDL_timer.h \
  C:/msys64/ucrt64/include/SDL3/SDL_tray.h \
  C:/msys64/ucrt64/include/SDL3/SDL_version.h \
- C:/msys64/ucrt64/include/SDL3/SDL_oldnames.h
+ C:/msys64/ucrt64/include/SDL3/SDL_oldnames.h \
+ C:/msys64/ucrt64/include/SDL3/SDL_main.h \
+ C:/msys64/ucrt64/include/SDL3/SDL_main_impl.h
