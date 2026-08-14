@@ -12,4 +12,9 @@ add_executable(physics_engine
     src/display.cpp
 )
 
+target_compile_options(physics_engine PRIVATE
+    -Wall
+    -Wextra
+)
+
 target_link_libraries(physics_engine SDL3::SDL3)

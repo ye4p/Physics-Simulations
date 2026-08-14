@@ -2,3 +2,5 @@ cmake --build . inside of /build directory to compile
 
 cmake -S . -B build
 cmake --build build
+
+    -Werror to treat warnings as errors
