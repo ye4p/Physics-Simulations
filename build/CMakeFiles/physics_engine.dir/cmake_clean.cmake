@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/physics_engine.dir/src/display.cpp.obj"
-  "CMakeFiles/physics_engine.dir/src/display.cpp.obj.d"
   "CMakeFiles/physics_engine.dir/src/main.cpp.obj"
   "CMakeFiles/physics_engine.dir/src/main.cpp.obj.d"
   "CMakeFiles/physics_engine.dir/src/physics.cpp.obj"

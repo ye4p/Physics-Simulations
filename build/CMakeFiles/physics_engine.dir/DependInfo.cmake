@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/src/display.cpp" "CMakeFiles/physics_engine.dir/src/display.cpp.obj" "gcc" "CMakeFiles/physics_engine.dir/src/display.cpp.obj.d"
   "C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/src/main.cpp" "CMakeFiles/physics_engine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/physics_engine.dir/src/main.cpp.obj.d"
   "C:/Users/danil/OneDrive/Desktop/Programming/repos/physics_engine/src/physics.cpp" "CMakeFiles/physics_engine.dir/src/physics.cpp.obj" "gcc" "CMakeFiles/physics_engine.dir/src/physics.cpp.obj.d"
   )

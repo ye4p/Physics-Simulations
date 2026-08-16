@@ -9,7 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(physics_engine
     src/main.cpp
     src/physics.cpp
-    src/display.cpp
 )
 
 target_compile_options(physics_engine PRIVATE

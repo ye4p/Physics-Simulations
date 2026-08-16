@@ -10,3 +10,27 @@ add_executable(physics_engine
     src/physics.cpp
     src/display.cpp
 )
+
+
+
+
+cmake_minimum_required(VERSION 3.26)
+project(physics_engine)
+
+find_package(SDL3 REQUIRED)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(physics_engine
+    src/main.cpp
+    src/physics.cpp
+    src/display.cpp
+)
+
+target_compile_options(physics_engine PRIVATE
+    -Wall
+    -Wextra
+)
+
+target_link_libraries(physics_engine SDL3::SDL3)

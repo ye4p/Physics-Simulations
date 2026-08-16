@@ -128,30 +128,6 @@ physics_engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/build
 .PHONY : physics_engine/fast
 
-src/display.obj: src/display.cpp.obj
-.PHONY : src/display.obj
-
-# target to build an object file
-src/display.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/src/display.cpp.obj
-.PHONY : src/display.cpp.obj
-
-src/display.i: src/display.cpp.i
-.PHONY : src/display.i
-
-# target to preprocess a source file
-src/display.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/src/display.cpp.i
-.PHONY : src/display.cpp.i
-
-src/display.s: src/display.cpp.s
-.PHONY : src/display.s
-
-# target to generate assembly for a file
-src/display.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/src/display.cpp.s
-.PHONY : src/display.cpp.s
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -209,9 +185,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... physics_engine
-	@echo ... src/display.obj
-	@echo ... src/display.i
-	@echo ... src/display.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
